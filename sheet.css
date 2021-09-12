@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: rgb(146, 170, 170);
+}
+
+.banner{
+    width: 100%;
+    height:auto;
+    background: url(../zoo.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+background-size: cover;    
+    justify-content: center;
+    background-size: 110%;
+padding: 5%;
+}
+
+nav ul{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    list-style-type: none;
+    padding: 0 ;
+    display: grid;
+    grid-template-columns: 80% 10% 10%;
+    max-width: auto ;
+    margin: 0 auto;
+}
+
+nav ul li a{
+list-style-type: none;
+text-decoration: none;
+color: white;
+
+}
+
+.content-area{
+height: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.content{
+    text-align: center;
+}
+
+.content h1{
+    font-size: 80px;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+
+}
+
+.content h2{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+
+.container{
+    width: auto;
+    margin: 50px;
+    padding: 10px;
+}
+
+
+.container1{
+    width: auto;
+    margin: 50px;
+    padding: 10px;
+}
+h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p{
+    display:flex;
+    font-weight: normal;
+}
+.box{
+    width: auto;
+    padding: 50px;
+    margin: 50px;
+       
+}
+.box1{
+    width: auto;
+    padding: 50px;
+    margin: 50px;
+       
+}
+
+
+
+.footer p{
+border-top: black 1px solid;
+padding: 5%;    
+  line-break:auto;
+  
+}
+
+
+@media(max-widh:500px) {
+    nav ul{
+        color: brown;
+    }
+}
